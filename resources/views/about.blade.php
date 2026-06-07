@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>About Us</h1>
-    <p>This is a simple about page.</p>
+    <p>{{$i}}</p>
+    <p>Number: {{$j}}</p>
     <a href="{{ route('contact') }}">Contact Us</a>
     <a href="/">Back to Welcome</a>
 </body>

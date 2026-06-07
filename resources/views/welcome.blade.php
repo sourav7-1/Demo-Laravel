@@ -9,5 +9,6 @@
     <h1>Welcome to Our App</h1>
     <p>This is a simple welcome page.</p>
     <a href="/about">About Us</a>
+    
 </body>
 </html>

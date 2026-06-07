@@ -3,16 +3,18 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('landing.landing');
+})->name('home');
 
 Route::get('/hello', function () {
     return 'Hello Laravel';
 });
 
 Route::get('/about', function () {
-    return view('about');
-});
+    $i = "This is about page";
+    $j = 1;
+    return view('about', compact('i', 'j'));
+})->name('about');
 
 Route::get('/student/{id}', function ($id) {
     return "Student ID: " . $id;

@@ -1,15 +1,18 @@
+<?php
+
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Post;
 
-class Homecontroller extends Controller
+class HomeController extends Controller
 {
-    public function index()
+    public function home()
     {
-        
-    $sum =2+5;
-    $str = "$sum";
-    echo $str;
-    return view('landing.landing', compact('str'));
+        $post = Post::first();
+        if (! $post || $post->user_id != 1) {
+            $post = null;
+        }
+
+        return view('landing.landing', compact('post'));
     }
 }

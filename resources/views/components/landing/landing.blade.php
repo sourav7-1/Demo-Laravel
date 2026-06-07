@@ -11,6 +11,9 @@
         <p class="lead text-muted">
             Explore amazing content and stay connected.
         </p>
+        <p class = "lead text-muted">
+            This is a demo website built with Laravel.
+        </p>
     </div>
 
     <div class="card shadow-lg border-0 rounded-4">

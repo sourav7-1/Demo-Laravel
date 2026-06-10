@@ -8,7 +8,7 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 .post-content {
-    background: #f8f9fa;
+    background: #f8fafa;
     padding: 20px;
     border-radius: 10px;
     line-height: 1.8;
@@ -57,4 +57,32 @@ body{
 
 .nav-link:hover{
     color: #ffd700 !important;
+}
+
+/* Post Content */
+
+body{
+    background:red !important;
+}
+
+.post-glow{
+    border-radius: 15px;
+    animation: floatGlow 3s ease-in-out infinite;
+}
+
+@keyframes floatGlow{
+    0%{
+        transform: translateY(0);
+        box-shadow: 0 0 15px rgba(13,110,253,0.4);
+    }
+
+    50%{
+        transform: translateY(-10px);
+        box-shadow: 0 0 35px rgba(13,110,253,0.9);
+    }
+
+    100%{
+        transform: translateY(0);
+        box-shadow: 0 0 15px rgba(13,110,253,0.4);
+    }
 }

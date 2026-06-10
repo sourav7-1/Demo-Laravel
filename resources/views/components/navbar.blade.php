@@ -2,7 +2,7 @@
     <div class="container">
 
         <a class="navbar-brand fw-bold" href="{{ url('/') }}">
-            Laravel Blog
+            Laravel Blog 👌
         </a>
 
         <button class="navbar-toggler" type="button"

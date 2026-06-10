@@ -1,12 +1,16 @@
 <footer style="background-color:  blanchedalmond; height: 100px;">
-    <div style="padding: 30px">
+    <div style="padding: 15px">
         <i style="color:mistream">
             
-            EDGE - Laravel - BlogProject AS 
+            Laravel - BlogProject AS 
         </i>
         <br>
         <i style="color:mistream">
              Developed by: SOURAV KUNDU --
+            
+        </i>
+        <br>
+        <i style="color:mistream">
             CSE-TECH: DIU
         </i>
     </div>
